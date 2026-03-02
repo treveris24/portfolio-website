@@ -6,61 +6,77 @@ const portfolioItems = [
     description:
       "Interactive tool analyzing DSO, DIO, DPO with what-if scenarios to optimize cash flow management.",
     category: "Finance App",
-    status: "Coming Soon",
+    status: "Live",
     href: "/projects/working-capital",
     icon: "💰",
+    color: "blue",
   },
   {
     title: "Break-Even Analysis Tool",
     description:
-      "Dynamic break-even calculator with visual cost-revenue intersection and margin of safety analysis.",
+      "Dynamic break-even calculator with visual cost-revenue chart, sensitivity analysis, and margin of safety.",
     category: "Finance App",
-    status: "Coming Soon",
+    status: "Live",
     href: "/projects/break-even",
     icon: "📊",
+    color: "emerald",
   },
   {
     title: "EVM Project Tracker",
     description:
-      "Earned Value Management dashboard with SPI/CPI gauges, trend analysis, and project health indicators.",
+      "Earned Value Management dashboard with SPI/CPI gauges, trend charts, Gantt view, and project health insights.",
     category: "Project Management",
-    status: "Coming Soon",
+    status: "Live",
     href: "/projects/evm-tracker",
     icon: "📋",
+    color: "purple",
   },
   {
     title: "Corporate Finance Dashboard",
     description:
-      "Interactive P&L, balance sheet, and cash flow visualization with variance analysis and trend insights.",
+      "Full-year P&L, Balance Sheet, Cash Flow, and Variance Analysis for a fictional mid-market company.",
     category: "Data Visualization",
-    status: "Coming Soon",
+    status: "Live",
     href: "/projects/finance-dashboard",
     icon: "📈",
+    color: "cyan",
+  },
+  {
+    title: "Monte Carlo Investment Simulator",
+    description:
+      "Probabilistic risk analysis running thousands of simulated scenarios to model investment outcomes.",
+    category: "Risk Analysis",
+    status: "Live",
+    href: "/projects/monte-carlo",
+    icon: "🎲",
+    color: "orange",
   },
   {
     title: "AI Finance Assistant",
     description:
-      "Intelligent chatbot trained to answer questions about finance operations, FP&A, and my professional background.",
+      "AI-powered chatbot that answers questions about my professional background, skills, and experience.",
     category: "AI Agent",
-    status: "Coming Soon",
+    status: "Live",
     href: "/projects/ai-assistant",
     icon: "🤖",
+    color: "violet",
   },
   {
-    title: "Process Automation Demo",
+    title: "Month-End Close Automation",
     description:
-      "Automated month-end close workflow demonstrating how repetitive finance tasks can be streamlined.",
-    category: "Automation",
-    status: "Coming Soon",
-    href: "/projects/automation",
+      "Automated 5-day close workflow with 17 tasks, dependency chains, and before/after impact analysis.",
+    category: "Process Automation",
+    status: "Live",
+    href: "/projects/process-automation",
     icon: "⚙️",
+    color: "teal",
   },
 ];
 
 const stats = [
-  { value: "35+", label: "Years in Finance" },
-  { value: "PMP", label: "Certified 2025" },
+  { value: "PMP®", label: "Certified 2025" },
   { value: "$160M", label: "P&L Managed" },
+  { value: "7", label: "Live Projects" },
   { value: "3", label: "Languages" },
 ];
 
@@ -108,8 +124,9 @@ export default function Home() {
           </p>
 
           <p className="text-base text-gray-500 max-w-2xl mx-auto mb-12 leading-relaxed">
-            35+ years transforming finance operations across global organizations.
-            Now building the tools and dashboards that drive modern business decisions.
+            Transforming finance operations across global organizations.
+            Building the tools, dashboards, and AI solutions that drive modern
+            business decisions.
           </p>
 
           {/* Stats */}
@@ -156,7 +173,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 text-gray-400 leading-relaxed">
             <div>
               <p className="mb-4">
-                With over three decades in finance — spanning FP&A, credit risk,
+                With extensive experience in finance — spanning FP&A, credit risk,
                 P&L management, budgeting, forecasting, and compliance — I bring
                 deep operational knowledge to every project.
               </p>
@@ -227,29 +244,36 @@ export default function Home() {
           </h3>
           <p className="text-gray-500 mb-12 max-w-2xl">
             Each project is a working application — interactive, functional, and
-            designed to solve real business problems.
+            designed to solve real business problems. Click any project to
+            explore it live.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {portfolioItems.map((item) => (
-              <div
+              <Link
                 key={item.title}
-                className="group relative p-6 rounded-xl bg-white/[0.02] border border-white/5 hover:border-blue-500/20 hover:bg-white/[0.04] transition-all duration-300"
+                href={item.href}
+                className="group relative p-6 rounded-xl bg-white/[0.02] border border-white/5 hover:border-blue-500/20 hover:bg-white/[0.04] transition-all duration-300 cursor-pointer"
               >
                 <div className="text-3xl mb-4">{item.icon}</div>
                 <div className="text-xs text-blue-400 uppercase tracking-wider mb-2">
                   {item.category}
                 </div>
-                <h4 className="text-lg font-semibold text-white mb-2">
+                <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-blue-400 transition-colors">
                   {item.title}
                 </h4>
                 <p className="text-gray-500 text-sm leading-relaxed mb-4">
                   {item.description}
                 </p>
-                <span className="inline-block px-3 py-1 rounded-full bg-yellow-500/10 text-yellow-500 text-xs">
-                  {item.status}
-                </span>
-              </div>
+                <div className="flex items-center justify-between">
+                  <span className="inline-block px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-semibold border border-emerald-500/20">
+                    {item.status}
+                  </span>
+                  <span className="text-gray-600 text-sm group-hover:text-blue-400 transition-colors">
+                    Explore →
+                  </span>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -271,7 +295,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:uweanell@gmail.com"
               className="px-6 py-3 bg-[#3b82f6] hover:bg-[#2563eb] text-white rounded-lg text-sm font-medium transition-colors"
             >
               Email Me
