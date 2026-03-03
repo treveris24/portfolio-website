@@ -71,12 +71,22 @@ const portfolioItems = [
     icon: "⚙️",
     color: "teal",
   },
+  {
+    title: "Executive Dashboard",
+    description:
+      "CEO/CFO command center with sales hierarchy drill-down, variance analysis (Y/Y, Q/Q, M/M), and critical KPI alerts.",
+    category: "Executive Reporting",
+    status: "Live",
+    href: "/projects/executive-dashboard",
+    icon: "🏢",
+    color: "blue",
+  },
 ];
 
 const stats = [
   { value: "PMP®", label: "Certified 2025" },
   { value: "$160M", label: "P&L Managed" },
-  { value: "7", label: "Live Projects" },
+  { value: "8", label: "Live Projects" },
   { value: "3", label: "Languages" },
 ];
 
