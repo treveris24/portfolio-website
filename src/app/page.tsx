@@ -84,7 +84,7 @@ const portfolioItems = [
 ];
 
 const stats = [
-  { value: "PMP®", label: "Certified 2025" },
+  { value: "PMP®", label: "Certified 2026" },
   { value: "$160M", label: "P&L Managed" },
   { value: "8", label: "Live Projects" },
   { value: "3", label: "Languages" },
@@ -122,7 +122,7 @@ export default function Home() {
 
         <div className="relative max-w-4xl mx-auto text-center">
           <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-blue-500/20 bg-blue-500/5 text-blue-400 text-sm">
-            Finance • Project Management • AI & Automation
+            Finance Business Partner • Project Management • BI & Automation
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-[1.1]">
@@ -130,13 +130,13 @@ export default function Home() {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-400 mb-4 font-light">
-            Finance Leader & PMP® Professional
+            Finance Business Partner & PMP® Project Manager
           </p>
 
           <p className="text-base text-gray-500 max-w-2xl mx-auto mb-12 leading-relaxed">
-            Transforming finance operations across global organizations.
-            Building the tools, dashboards, and AI solutions that drive modern
-            business decisions.
+            Bridging the gap between financial strategy and operational execution.
+            Specializing in long-range planning, risk management, and data-driven
+            decision making for multinational organizations in Panama and Latin America.
           </p>
 
           {/* Stats */}
@@ -177,53 +177,99 @@ export default function Home() {
             About
           </h2>
           <h3 className="text-3xl md:text-4xl font-bold mb-8">
-            Finance expertise meets modern technology.
+            Strategic Vision. Financial Discipline. Local Expertise.
           </h3>
 
           <div className="grid md:grid-cols-2 gap-12 text-gray-400 leading-relaxed">
             <div>
               <p className="mb-4">
-                With extensive experience in finance — spanning FP&A, credit risk,
-                P&L management, budgeting, forecasting, and compliance — I bring
-                deep operational knowledge to every project.
+                With over 20 years of experience in the financial sectors of
+                Europe and Latin America, I help organizations navigate complex
+                projects by providing a &quot;Safe Hands&quot; approach to financial
+                planning and risk.
               </p>
               <p>
-                My career includes 15+ years at Dell managing cross-functional
-                finance teams, leading business intelligence initiatives, and
-                overseeing revenue compliance across Latin America.
+                As a PMP® certified professional and long-term resident of
+                Panama, I understand the unique intersection of international
+                corporate standards and local market dynamics. My career has been
+                defined by a commitment to data integrity, internal control, and
+                strategic partnership — transforming raw financial data into clear
+                roadmaps for growth and stability.
               </p>
             </div>
             <div>
-              <p className="mb-4">
-                Today, I combine that foundation with modern tools: building
-                interactive dashboards, automating finance workflows, creating AI
-                agents, and developing web-based applications that solve real
-                business problems.
-              </p>
-              <p>
-                Fluent in English, Spanish, and German. PMP® certified. Based in
-                Panama City.
-              </p>
+              <p className="mb-2 text-white font-semibold">What I bring to the table:</p>
+              <div className="space-y-3">
+                <div className="p-3 rounded-lg bg-white/[0.02] border border-white/5">
+                  <span className="text-white font-semibold">Financial Planning & Analysis</span>
+                  <span className="text-gray-500"> — Expert-level modeling of P&L, Cash Flow, and long-range projections.</span>
+                </div>
+                <div className="p-3 rounded-lg bg-white/[0.02] border border-white/5">
+                  <span className="text-white font-semibold">Project Governance</span>
+                  <span className="text-gray-500"> — Driving results through structured PMP methodology and stakeholder alignment.</span>
+                </div>
+                <div className="p-3 rounded-lg bg-white/[0.02] border border-white/5">
+                  <span className="text-white font-semibold">Risk & Compliance</span>
+                  <span className="text-gray-500"> — A bank-grade approach to internal controls and regulatory requirements.</span>
+                </div>
+                <div className="p-3 rounded-lg bg-white/[0.02] border border-white/5">
+                  <span className="text-white font-semibold">Modern Toolset</span>
+                  <span className="text-gray-500"> — Leveraging Power BI and AI-driven workflows to enhance reporting accuracy and efficiency.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Recent Focus & Impact */}
+          <div className="mt-16 mb-12">
+            <h4 className="text-sm uppercase tracking-widest text-blue-400 mb-6">
+              Recent Focus & Impact
+            </h4>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="p-5 rounded-xl bg-white/[0.02] border border-white/5">
+                <div className="text-2xl mb-3">📊</div>
+                <div className="text-white font-semibold mb-2">Financial Transformation</div>
+                <div className="text-gray-500 text-sm leading-relaxed">
+                  Led the migration from manual reporting to automated BI environments,
+                  reducing reporting latency by 40%.
+                </div>
+              </div>
+              <div className="p-5 rounded-xl bg-white/[0.02] border border-white/5">
+                <div className="text-2xl mb-3">🌎</div>
+                <div className="text-white font-semibold mb-2">Regional P&L Stewardship</div>
+                <div className="text-gray-500 text-sm leading-relaxed">
+                  Managed $160M+ portfolios across 15+ countries, ensuring 100%
+                  compliance with statutory and audit standards.
+                </div>
+              </div>
+              <div className="p-5 rounded-xl bg-white/[0.02] border border-white/5">
+                <div className="text-2xl mb-3">🎯</div>
+                <div className="text-white font-semibold mb-2">Strategic Advisory</div>
+                <div className="text-gray-500 text-sm leading-relaxed">
+                  Partnering with GMs and Directors to determine investment capacity,
+                  pricing structures, and long-term business viability.
+                </div>
+              </div>
             </div>
           </div>
 
           {/* Experience Highlights */}
-          <div className="mt-16 grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
             {[
               {
                 company: "Dell Technologies",
-                role: "PM/BI Lead, FP&A, Revenue & Compliance",
-                years: "15+ years",
+                role: "Project Manager / BI & Reporting, FP&A, Risk",
+                years: "19 years · Panama",
               },
               {
                 company: "Puig (Carolina Herrera, Prada)",
-                role: "Finance & Admin Manager",
-                years: "Regional Role",
+                role: "Regional Finance & Admin Business Partner",
+                years: "Regional · Panama",
               },
               {
                 company: "Dresdner Bank",
-                role: "Head of Credit Risk",
-                years: "Banking Sector",
+                role: "Senior Credit Risk Specialist",
+                years: "Banking · Hamburg / Panama",
               },
             ].map((exp) => (
               <div
@@ -299,8 +345,8 @@ export default function Home() {
             Let&apos;s connect.
           </h3>
           <p className="text-gray-500 mb-12">
-            Open to Finance Manager, Project Manager, and Business Consultant
-            opportunities in Panama and internationally.
+            Open to Finance Business Partner, Project Manager, and Strategic Advisory
+            opportunities in Panama and Latin America.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -311,7 +357,7 @@ export default function Home() {
               Email Me
             </a>
             <a
-              href="https://linkedin.com/in/uweanell"
+              href="https://linkedin.com/in/uwe-anell"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 border border-white/10 hover:border-white/25 text-gray-300 rounded-lg text-sm font-medium transition-colors"
@@ -324,8 +370,8 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-white/5 text-center text-gray-600 text-sm">
-        © {new Date().getFullYear()} Uwe Anell. Built with Next.js. All
-        projects created using AI-assisted development.
+        © {new Date().getFullYear()} Uwe Anell. Finance Business Partner & PMP® Project Manager.
+        Built with Next.js and AI-assisted development.
       </footer>
     </main>
   );
