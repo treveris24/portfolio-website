@@ -194,7 +194,7 @@ function HeatMapGrid({ onCellClick, selectedRisk }: { onCellClick: (r: Risk) => 
                     key={i}
                     className={`${config.cellBg} rounded-lg h-[72px] p-1.5 flex flex-col gap-0.5 overflow-hidden transition-all`}
                   >
-                    {cell.map((r) => (
+                   {cell.filter(Boolean).map((r) => (
                       <button
                         key={r.id}
                         onClick={() => onCellClick(r)}
