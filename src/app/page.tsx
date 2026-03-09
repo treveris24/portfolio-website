@@ -507,7 +507,37 @@ function EvidenceBlock({ tile, index, lang }: { tile: TileData; index: number; l
       id={`ev-${tile.id}`}
       ref={f.ref}
       style={f.style}
-      className={`rounded-2xl border border-white/[0.06] p-8 md:p-11 grid grid-cols-1 md:grid-cols-2 gap-10 items-center ${
+      
+function EvidenceBlock({ tile, index, lang }: { tile: TileData; index: number; lang: Lang }) {
+  const f = useFade();
+  return (
+    <div
+      id={`ev-${tile.id}`}
+      ref={f.ref}
+      style={f.style}
+      className={`rounded-2xl border border-white/[0.06] p-8 md:p-11 ${
+        index % 2 === 0 ? "bg-[#162230]" : "bg-[#0F1923]"
+      }`}
+    >
+      <div className="text-[11px] font-bold text-[#2EC4B6] tracking-[0.1em] uppercase mb-2">
+        {tile.tag}
+      </div>
+      <h3 className="text-2xl font-bold text-[#F0F4F8] mb-4 leading-tight">
+        {tile.title}
+      </h3>
+      <p className="text-[15px] text-white/65 leading-relaxed mb-7 max-w-2xl">
+        {tile.evidence}
+      </p>
+      
+        href={tile.href}
+        className="inline-flex items-center gap-2 px-7 py-3 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors"
+      >
+        {tile.cta} →
+      </a>
+    </div>
+  );
+}
+
         isEven ? "bg-[#162230]" : "bg-[#0F1923]"
       }`}
     >
