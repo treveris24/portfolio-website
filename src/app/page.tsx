@@ -212,10 +212,14 @@ function EvidenceBlock({ tile, index }: { tile: TileData; index: number }) {
   const f = useFade();
   return (
     <div id={`ev-${tile.id}`} ref={f.ref} style={f.style} className={`rounded-2xl border border-white/[0.06] p-8 md:p-11 ${index % 2 === 0 ? "bg-[#162230]" : "bg-[#0F1923]"}`}>
-      <div className="text-[11px] font-bold text-[#2EC4B6] tracking-[0.1em] uppercase mb-2">{tile.tag}</div>
-      <h3 className="text-2xl font-bold text-[#F0F4F8] mb-4 leading-tight">{tile.title}</h3>
-      <p className="text-[15px] text-white/65 leading-relaxed mb-7 max-w-2xl">{tile.evidence}</p>
-      <a href={tile.href} className="inline-flex items-center gap-2 px-7 py-3 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors">{tile.cta} →</a>
+      <div className="text-sm font-bold text-[#2EC4B6] tracking-[0.1em] uppercase mb-3">{tile.tag}</div>
+      <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+        <div className="flex-1">
+          <h3 className="text-2xl font-bold text-[#F0F4F8] mb-4 leading-tight">{tile.title}</h3>
+          <p className="text-[15px] text-white/65 leading-relaxed max-w-2xl">{tile.evidence}</p>
+        </div>
+        <a href={tile.href} className="inline-flex items-center gap-2 px-7 py-3 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors whitespace-nowrap flex-shrink-0">{tile.cta} →</a>
+      </div>
     </div>
   );
 }
