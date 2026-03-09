@@ -375,10 +375,10 @@ export default function RiskHeatMap() {
       {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0F1923]/95 backdrop-blur-xl border-b border-white/[0.06]">
         <div className="max-w-[1100px] mx-auto flex items-center justify-between px-6 py-3.5">
-          <Link href="/v2" className="text-[#2EC4B6] text-xl font-bold tracking-tight no-underline">
+          <Link href="/" className="text-[#2EC4B6] text-xl font-bold tracking-tight no-underline">
             Uwe Anell
           </Link>
-          <Link href="/v2" className="text-sm text-white/50 hover:text-[#2EC4B6] transition-colors no-underline">
+          <Link href="/" className="text-sm text-white/50 hover:text-[#2EC4B6] transition-colors no-underline">
             ← Back
           </Link>
         </div>
@@ -529,7 +529,7 @@ export default function RiskHeatMap() {
 
         {/* Back */}
         <div className="text-center mt-8">
-          <Link href="/v2" className="text-sm text-white/40 hover:text-[#2EC4B6] transition-colors no-underline">
+          <Link href="/" className="text-sm text-white/40 hover:text-[#2EC4B6] transition-colors no-underline">
             ← Back to homepage
           </Link>
         </div>
