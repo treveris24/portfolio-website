@@ -145,7 +145,7 @@ function PhaseTimeline({ activePhase, setActivePhase }: { activePhase: number; s
               }`}
               style={{
                 background: activePhase === p.id ? `${p.color}20` : "rgba(255,255,255,0.04)",
-                ringColor: activePhase === p.id ? `${p.color}30` : "transparent",
+        
                 boxShadow: activePhase === p.id ? `0 0 20px ${p.color}15` : "none",
               }}
             >
