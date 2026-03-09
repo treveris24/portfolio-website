@@ -528,11 +528,8 @@ function EvidenceBlock({ tile, index, lang }: { tile: TileData; index: number; l
           {tile.cta} →
         </a>
       </div>
-      <div className={`${isEven ? "md:order-2" : "md:order-1"} bg-[#2EC4B6]/[0.04] border border-[#2EC4B6]/[0.15] rounded-xl min-h-[220px] flex items-center justify-center p-8`}>
-        <div className="text-center">
-          <div className="text-5xl mb-3">{tile.icon}</div>
-          <div className="text-[13px] text-white/40">{t.evidence.preview[lang]}</div>
-        </div>
+     <div className={`${isEven ? "md:order-2" : "md:order-1"} bg-[#2EC4B6]/[0.04] border border-[#2EC4B6]/[0.15] rounded-xl min-h-[220px] flex items-center justify-center p-8`}>
+        <div className="text-8xl opacity-20">{tile.icon}</div>
       </div>
     </div>
   );
