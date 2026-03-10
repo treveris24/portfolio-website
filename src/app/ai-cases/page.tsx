@@ -30,7 +30,7 @@ const cases: CaseStudy[] = [
     problem:
       "A regional finance team spent 2 full days every quarter manually reviewing 50+ partner contracts — checking rebate terms, discount tiers, payment conditions, and compliance clauses. Errors and missed terms led to overpayments and audit findings.",
     solution:
-      "I built a custom LLM workflow that ingests partner contracts (PDF/Word), extracts key commercial terms into a structured table, flags anomalies against the master agreement template, and produces a summary report with exceptions highlighted. The analyst's role shifted from data extraction to exception review.",
+      "This workflow uses an LLM to ingest partner contracts (PDF/Word), extracts key commercial terms into a structured table, flags anomalies against the master agreement template, and produces a summary report with exceptions highlighted. The analyst's role shifted from data extraction to exception review.",
     result:
       "What took 2 days now takes 15 minutes. The team catches more anomalies than before because the AI reviews every clause — not just the ones an analyst has time to check. Audit findings related to contract terms dropped to zero in the following two quarters.",
     beforeTitle: "Before: Manual Process",
@@ -63,7 +63,7 @@ const cases: CaseStudy[] = [
     problem:
       "Every month after close, a senior analyst spent 4+ hours writing narrative commentary for the variance report — explaining why each cost center was over or under budget. The commentary was repetitive, formulaic, and the analyst's time was better spent on actual analysis.",
     solution:
-      "I created a prompt pipeline that takes the raw variance data (actual vs. budget by cost center), applies business context rules, and generates first-draft commentary for each line item. The output follows the company's standard format and tone. The analyst's role shifted from writing to reviewing and adding judgment where the AI flags uncertainty.",
+      "A prompt pipeline takes the raw variance data (actual vs. budget by cost center), applies business context rules, and generates first-draft commentary for each line item. The output follows the company's standard format and tone. The analyst's role shifted from writing to reviewing and adding judgment where the AI flags uncertainty.",
     result:
       "Commentary generation went from 4 hours to 20 minutes of review time. Quality improved because the AI is consistent — it never forgets to mention a material variance. The analyst now spends that recovered time on forward-looking analysis instead of backward-looking narration.",
     beforeTitle: "Before: Manual Commentary",
@@ -96,7 +96,7 @@ const cases: CaseStudy[] = [
     problem:
       "Internal audit preparation required manual review of 200+ control documents spread across SharePoint, shared drives, and email archives. The compliance team spent weeks before each audit just locating and verifying documents. New hires took months to learn where everything was stored.",
     solution:
-      "I deployed a RAG-based (Retrieval-Augmented Generation) system that indexes all internal control documents, SOPs, and policy manuals into a queryable knowledge base. Auditors and finance staff can ask questions in natural language and get specific answers with source document citations. The system explicitly states when a question falls outside the indexed knowledge base.",
+      "A RAG-based (Retrieval-Augmented Generation) system that indexes all internal control documents, SOPs, and policy manuals into a queryable knowledge base. Auditors and finance staff can ask questions in natural language and get specific answers with source document citations. The system explicitly states when a question falls outside the indexed knowledge base.",
     result:
       "Audit preparation time was cut by 60%. New hires became productive in days instead of months because they could query the system instead of asking five colleagues. The system also identified 12 outdated documents that needed updates — gaps that had gone unnoticed for over a year.",
     beforeTitle: "Before: Document Hunting",
@@ -293,8 +293,7 @@ export default function AICaseStudies() {
             AI for Finance: 3 Real-World Case Studies
           </h1>
           <p className="text-base text-white/40 max-w-xl mx-auto leading-relaxed">
-            These aren't hypothetical scenarios. Each case study maps to a real pain point
-            that finance teams in Latin America face daily — and shows how I solved it with AI.
+            Each case study reflects a common challenge in LatAm finance operations — and shows how AI tools can make a real difference.
           </p>
         </div>
 
@@ -314,11 +313,11 @@ export default function AICaseStudies() {
         <div className="max-w-[1100px] mx-auto mt-14 text-center">
           <div className="p-8 rounded-xl bg-[#162230] border border-white/[0.06]">
             <h3 className="text-xl font-bold text-[#F0F4F8] mb-3">
-              Have a similar challenge?
+              These are the types of challenges I enjoy working on.
             </h3>
             <p className="text-sm text-white/40 mb-6 max-w-md mx-auto leading-relaxed">
               Every finance team has repetitive, time-consuming processes that AI can transform.
-              Let's identify yours.
+              Feel free to reach out if any of this resonates.
             </p>
             <a
               href="https://wa.me/50766708030?text=Hi%20Uwe%2C%20I%20saw%20your%20AI%20case%20studies.%20I%E2%80%99d%20like%20to%20discuss%20how%20AI%20could%20help%20my%20finance%20team."
@@ -326,7 +325,7 @@ export default function AICaseStudies() {
               rel="noreferrer"
               className="inline-block px-8 py-3.5 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors"
             >
-              Let's Talk About Your Workflows
+              Happy to Connect
             </a>
           </div>
         </div>

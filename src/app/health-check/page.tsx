@@ -288,12 +288,10 @@ function Results({ answers }: { answers: Answers }) {
       {/* CTA */}
       <div className="text-center p-8 rounded-xl bg-[#162230] border border-white/[0.06]">
         <h3 className="text-xl font-bold text-[#F0F4F8] mb-3">
-          Want a deeper diagnostic?
+          Want to explore further?
         </h3>
         <p className="text-sm text-white/50 mb-6 max-w-md mx-auto leading-relaxed">
-          This assessment gives you a high-level view. A 30-minute call would let me
-          pinpoint exactly where your highest-ROI improvements are — with specific
-          recommendations you can act on immediately.
+          This assessment gives you a high-level snapshot. Happy to chat if you'd like to explore any of these topics further.
         </p>
         <a
           href="https://wa.me/50766708030?text=Hi%20Uwe%2C%20I%20just%20took%20the%20Finance%20Health%20Check%20on%20your%20website.%20I%E2%80%99d%20like%20to%20discuss%20the%20results."
@@ -301,7 +299,8 @@ function Results({ answers }: { answers: Answers }) {
           rel="noreferrer"
           className="inline-block px-8 py-3.5 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors"
         >
-          Book a 30-Minute Diagnostic Call
+          Happy to Connect
+          
         </a>
       </div>
 

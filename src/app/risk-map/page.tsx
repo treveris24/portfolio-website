@@ -394,7 +394,7 @@ export default function RiskHeatMap() {
             Panama SEM Risk Heat Map
           </h1>
           <p className="text-base text-white/40 max-w-xl mx-auto leading-relaxed">
-            One page that shows your CFO where you're exposed. Covers tax/reporting,
+            A practical overview of common risk areas for multinational subsidiaries in Panama. Covers tax/reporting,
             operational, and regulatory risk for multinational subsidiaries operating in Panama.
           </p>
         </div>
@@ -510,7 +510,7 @@ export default function RiskHeatMap() {
         <div className="max-w-[1100px] mx-auto mt-10 text-center">
           <div className="p-8 rounded-xl bg-[#162230] border border-white/[0.06]">
             <h3 className="text-xl font-bold text-[#F0F4F8] mb-3">
-              Want this customized for your organization?
+              Interested in risk management for your region?
             </h3>
             <p className="text-sm text-white/40 mb-6 max-w-md mx-auto leading-relaxed">
               This template shows the methodology. A real engagement starts with your specific risk
@@ -522,7 +522,7 @@ export default function RiskHeatMap() {
               rel="noreferrer"
               className="inline-block px-8 py-3.5 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors"
             >
-              Request a Custom Risk Assessment
+              Want to discuss risk management? Let's connect.
             </a>
           </div>
         </div>

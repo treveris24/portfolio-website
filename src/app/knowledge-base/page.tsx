@@ -367,7 +367,7 @@ export default function KnowledgeBase() {
           <div className="mt-8 text-center">
             <div className="p-8 rounded-xl bg-[#162230] border border-white/[0.06]">
               <h3 className="text-xl font-bold text-[#F0F4F8] mb-3">
-                Imagine this for your organization.
+                Imagine this for a finance team.
               </h3>
               <p className="text-sm text-white/40 mb-6 max-w-md mx-auto leading-relaxed">
                 Your policy manuals, SOPs, and compliance documents — queryable in
@@ -380,7 +380,7 @@ export default function KnowledgeBase() {
                 rel="noreferrer"
                 className="inline-block px-8 py-3.5 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors"
               >
-                Let's Build Yours
+                Curious how this could work in practice? Happy to discuss.
               </a>
             </div>
           </div>

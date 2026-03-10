@@ -112,7 +112,7 @@ const phases: Phase[] = [
       },
       {
         title: "Knowledge Transfer & Training",
-        description: "Team training on new tools and processes. Documentation updated. Goal: everything runs without me if I step away for a week.",
+        description: "Team training on new tools and processes. Documentation updated. Goal: the team can run everything independently.",
       },
       {
         title: "Handoff Report & Roadmap",
@@ -256,7 +256,7 @@ export default function Blueprint() {
             The 30-60-90 Day Blueprint
           </h1>
           <p className="text-base text-white/40 max-w-xl mx-auto leading-relaxed">
-            My repeatable system for walking into a new finance organization and producing measurable results in 90 days. Not theory — a structured methodology with concrete deliverables at every stage.
+            A structured approach I use to get up to speed quickly and contribute meaningfully in a new finance role. Here's what the first 90 days typically look like.
           </p>
         </div>
 
@@ -298,11 +298,11 @@ export default function Blueprint() {
         <div className="max-w-4xl mx-auto mt-8 text-center">
           <div className="p-8 rounded-xl bg-[#162230] border border-white/[0.06]">
             <h3 className="text-xl font-bold text-[#F0F4F8] mb-3">
-              This is what your first 90 days with me look like.
+              This is the kind of structure I bring to any new role or project.
             </h3>
             <p className="text-sm text-white/40 mb-6 max-w-md mx-auto leading-relaxed">
               Whether it's a new role, a project engagement, or a consulting sprint — I bring this
-              structured approach to every engagement. De-risk the hire.
+              structured approach to every engagement. I'm happy to walk through any of this in more detail.
             </p>
             <a
               href="https://wa.me/50766708030?text=Hi%20Uwe%2C%20I%20saw%20your%2030-60-90%20blueprint.%20I%E2%80%99d%20like%20to%20discuss%20how%20this%20approach%20could%20work%20for%20my%20organization."
@@ -310,7 +310,7 @@ export default function Blueprint() {
               rel="noreferrer"
               className="inline-block px-8 py-3.5 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors"
             >
-              Let's Discuss Your Situation
+              Happy to Connect
             </a>
           </div>
         </div>

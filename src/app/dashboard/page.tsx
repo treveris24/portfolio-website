@@ -31,8 +31,7 @@ export default function Dashboard() {
           </h1>
           <p className="text-base text-white/40 max-w-2xl mx-auto leading-relaxed">
             This interactive Power BI dashboard shows a fictional Latin American regional P&L
-            across 5 countries and 12 months. Click, filter, and drill down — exactly how I'd
-            present insights to senior leadership on Day 1.
+            across 5 countries and 12 months. Click, filter, and drill down — a practical example of how consolidated regional data can look when automated.
           </p>
         </div>
 
@@ -212,19 +211,16 @@ export default function Dashboard() {
         <div className="max-w-[1200px] mx-auto mt-10 text-center">
           <div className="p-8 rounded-xl bg-[#162230] border border-white/[0.06]">
             <h3 className="text-xl font-bold text-[#F0F4F8] mb-3">
-              Your regional reporting could look like this.
+              Regional reporting can look like this.
             </h3>
             <p className="text-sm text-white/40 mb-6 max-w-md mx-auto leading-relaxed">
-              I build dashboards that replace manual consolidation, surface the insights
-              that matter, and give your leadership team self-service access to real-time data.
+              Dashboards like this can replace manual consolidation and give the team self-service access to real-time data.
             </p>
             <a
-              href="https://wa.me/50766708030?text=Hi%20Uwe%2C%20I%20saw%20your%20Power%20BI%20dashboard%20demo.%20I%E2%80%99d%20like%20to%20discuss%20how%20you%20could%20build%20something%20similar%20for%20my%20organization."
-              target="_blank"
-              rel="noreferrer"
+              href="mailto:uweanell@gmail.com"
               className="inline-block px-8 py-3.5 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors"
             >
-              Let's Discuss Your Reporting Needs
+              Interested in seeing more? Let's connect.
             </a>
           </div>
         </div>
