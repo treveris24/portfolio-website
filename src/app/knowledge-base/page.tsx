@@ -375,9 +375,9 @@ export default function KnowledgeBase() {
                 cut by 60%.
               </p>
               <a
-                href="https://wa.me/50766708030?text=Hi%20Uwe%2C%20I%20tried%20the%20Corporate%20Knowledge%20Base%20demo%20on%20your%20website.%20I%E2%80%99d%20like%20to%20discuss%20building%20something%20like%20this%20for%20my%20organization."
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:uweanell@gmail.com"
+                
+                
                 className="inline-block px-8 py-3.5 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors"
               >
                 Curious how this could work in practice? Happy to discuss.

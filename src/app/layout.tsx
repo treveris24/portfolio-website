@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Uwe Anell — Finance Leader & PMP® Professional",
+  title: "Uwe Anell — Finance Specialist & PMP® Professional",
   description:
     "Portfolio showcasing 35+ years of finance expertise combined with modern technology: interactive dashboards, AI agents, process automation, and web applications.",
 };

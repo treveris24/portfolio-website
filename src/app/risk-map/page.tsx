@@ -517,9 +517,9 @@ export default function RiskHeatMap() {
               landscape — your systems, your regulatory exposure, your operational reality.
             </p>
             <a
-              href="https://wa.me/50766708030?text=Hi%20Uwe%2C%20I%20saw%20your%20Risk%20Heat%20Map%20template.%20I%E2%80%99d%20like%20to%20discuss%20a%20risk%20assessment%20for%20my%20organization."
-              target="_blank"
-              rel="noreferrer"
+              href="mailto:uweanell@gmail.com"
+              
+              
               className="inline-block px-8 py-3.5 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors"
             >
               Want to discuss risk management? Let's connect.

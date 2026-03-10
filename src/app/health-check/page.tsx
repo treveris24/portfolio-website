@@ -294,9 +294,9 @@ function Results({ answers }: { answers: Answers }) {
           This assessment gives you a high-level snapshot. Happy to chat if you'd like to explore any of these topics further.
         </p>
         <a
-          href="https://wa.me/50766708030?text=Hi%20Uwe%2C%20I%20just%20took%20the%20Finance%20Health%20Check%20on%20your%20website.%20I%E2%80%99d%20like%20to%20discuss%20the%20results."
-          target="_blank"
-          rel="noreferrer"
+          href="mailto:uweanell@gmail.com"
+          
+          
           className="inline-block px-8 py-3.5 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg no-underline transition-colors"
         >
           Happy to Connect
