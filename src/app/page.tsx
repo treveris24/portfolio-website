@@ -127,9 +127,9 @@ function Hero({ lang }: { lang: Lang }) {
       <div ref={f.ref} style={f.style} className="max-w-[1100px] mx-auto w-full grid grid-cols-1 md:grid-cols-[1fr_300px] gap-14 items-center px-6 pt-28 pb-10">
         <div>
           <div className="text-base font-bold text-[#2EC4B6] tracking-[0.14em] uppercase mb-1">{t.hero.tag[lang]}</div>
-          <div className="text-sm font-semibold text-white/50 tracking-[0.1em] uppercase mb-5">{t.hero.tag2[lang]}</div>
-          <h1 className="text-4xl md:text-[48px] font-bold text-[#F0F4F8] leading-[1.18] tracking-tight mb-6">{t.hero.h1a[lang]}<br /><span className="text-[#2EC4B6]">{t.hero.h1b[lang]}</span></h1>
-          <p className="text-lg text-white/70 leading-relaxed max-w-[520px] mb-9">{t.hero.sub[lang]}</p>
+          <div className="text-base font-bold text-[#2EC4B6] tracking-[0.14em] uppercase mb-5">{t.hero.tag2[lang]}</div>
+          <h1 className="text-3xl md:text-[42px] font-bold text-[#F0F4F8] leading-[1.18] tracking-tight mb-6">{t.hero.h1a[lang]}<br /><span className="text-[#2EC4B6]">{t.hero.h1b[lang]}</span></h1>
+          <p className="text-xl text-white/70 leading-relaxed max-w-[520px] mb-9">{t.hero.sub[lang]}</p>
           <div className="flex gap-3.5">
             <button onClick={() => scrollTo("tiles")} className="px-7 py-3.5 bg-[#2EC4B6] hover:bg-[#1FA99C] text-[#0F1923] font-bold text-[15px] rounded-lg border-none cursor-pointer transition-all hover:-translate-y-px">{t.hero.cta1[lang]}</button>
             <button onClick={() => scrollTo("contact")} className="px-7 py-3.5 bg-transparent text-white font-semibold text-[15px] rounded-lg border border-white/10 hover:border-[#2EC4B6] cursor-pointer transition-colors">{t.hero.cta2[lang]}</button>
