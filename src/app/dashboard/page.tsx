@@ -30,8 +30,7 @@ export default function Dashboard() {
             From 3-Day Excel Consolidation to Real-Time Dashboard
           </h1>
           <p className="text-base text-white/40 max-w-2xl mx-auto leading-relaxed">
-            This interactive Power BI dashboard shows a fictional Latin American regional P&L
-            across 5 countries and 12 months. Click, filter, and drill down — a practical example of how consolidated regional data can look when automated.
+            This interactive Power BI dashboard shows a fictional Latin American regional P&L across 5 countries and 12 months — covering revenue, margin, OPEX variance, product mix, working capital KPIs, and sales performance. Click, filter, and drill down — a practical example of how consolidated regional data can look when automated.
           </p>
         </div>
 
@@ -108,6 +107,20 @@ export default function Dashboard() {
                 <div className="text-sm font-bold text-[#F0F4F8] mb-2">Page 3: Product Mix & PVM</div>
                 <div className="text-xs text-white/40 leading-relaxed">
                   Revenue by product line revealing Colombia's Hardware dependency. Price/Volume/Mix decomposition per country.
+                </div>
+              </div>
+              <div className="p-5 rounded-xl bg-[#162230] border border-white/[0.06]">
+                <div className="text-lg mb-2">⚡</div>
+                <div className="text-sm font-bold text-[#F0F4F8] mb-2">Page 4: Liquidity & Turnover KPIs</div>
+                <div className="text-xs text-white/40 leading-relaxed">
+                  Working capital health at a glance: quick ratio, current ratio, cash flow, DSO/DIO/DPO gauges, AR vs AP turnover, and accounts payable aging.
+                </div>
+              </div>
+              <div className="p-5 rounded-xl bg-[#162230] border border-white/[0.06]">
+                <div className="text-lg mb-2">🌎</div>
+                <div className="text-sm font-bold text-[#F0F4F8] mb-2">Page 5: Sales by Country</div>
+                <div className="text-xs text-white/40 leading-relaxed">
+                  Revenue by month per country with top 5 customers and top 5 sellers for each market. Filter by month to see seasonal patterns.
                 </div>
               </div>
             </div>
