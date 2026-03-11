@@ -18,10 +18,11 @@ const t = {
     contact: { en: "Contact", es: "Contacto" },
   },
   hero: {
-    tag: { en: "Finance Business Partner · PMP® · Panama City", es: "Socio de Negocios Financiero · PMP® · Ciudad de Panamá" },
-    h1a: { en: "Better data. Clearer decisions.", es: "Mejores datos. Decisiones más claras." },
-    h1b: { en: "Stronger controls.", es: "Controles más sólidos." },
-    sub: { en: "I help finance teams across Latin America close the gap between messy data and clear decisions — through sharper reporting, tighter controls, and modern tools.", es: "Ayudo a equipos financieros en América Latina a cerrar la brecha entre datos desordenados y decisiones claras — con reportes más precisos, controles más sólidos y herramientas modernas." },
+    tag: { en: "Uwe Anell | Panama City", es: "Uwe Anell | Ciudad de Panamá" },
+    tag2: { en: "Supporting Multinational Operations Through:", es: "Apoyando Operaciones Multinacionales Mediante:" },
+    h1a: { en: "Operational Stability | Finance BI", es: "Estabilidad Operativa | Finance BI" },
+    h1b: { en: "PMP® Project Delivery", es: "Entrega de Proyectos PMP®" },
+    sub: { en: "Transforming complex financial data into stable, automated, and audit-ready operations.", es: "Transformando datos financieros complejos en operaciones estables, automatizadas y listas para auditoría." },
     cta1: { en: "See Real Outcomes", es: "Ver Resultados Reales" },
     cta2: { en: "Contact Me", es: "Contáctame" },
     years: { en: "20+ years", es: "20+ años" },
@@ -125,7 +126,8 @@ function Hero({ lang }: { lang: Lang }) {
     <section className="relative min-h-[76vh] flex items-center overflow-hidden bg-gradient-to-br from-[#0F1923] via-[#0D2137] to-[#1A2A3A]">
       <div ref={f.ref} style={f.style} className="max-w-[1100px] mx-auto w-full grid grid-cols-1 md:grid-cols-[1fr_300px] gap-14 items-center px-6 pt-28 pb-10">
         <div>
-          <div className="text-base font-bold text-[#2EC4B6] tracking-[0.14em] uppercase mb-5">{t.hero.tag[lang]}</div>
+          <div className="text-base font-bold text-[#2EC4B6] tracking-[0.14em] uppercase mb-1">{t.hero.tag[lang]}</div>
+          <div className="text-sm font-semibold text-white/50 tracking-[0.1em] uppercase mb-5">{t.hero.tag2[lang]}</div>
           <h1 className="text-4xl md:text-[48px] font-bold text-[#F0F4F8] leading-[1.18] tracking-tight mb-6">{t.hero.h1a[lang]}<br /><span className="text-[#2EC4B6]">{t.hero.h1b[lang]}</span></h1>
           <p className="text-lg text-white/70 leading-relaxed max-w-[520px] mb-9">{t.hero.sub[lang]}</p>
           <div className="flex gap-3.5">
