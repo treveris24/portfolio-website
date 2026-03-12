@@ -113,10 +113,10 @@ export default function KnowledgeBase() {
               Corporate Knowledge Base
             </h1>
             <p className="text-base text-white/40 max-w-xl mx-auto leading-relaxed">
-              Every multinational has thousands of pages of internal policies that nobody
-              reads — until something goes wrong. This is a working proof of concept showing
-              how I transform static corporate documentation into an interactive, queryable
-              intelligence asset.
+              Every multinational has thousands of pages of internal policies that often stay
+              buried until a crisis hits. This proof of concept shows how we can turn static
+              documentation into an interactive, searchable resource that helps the whole team
+              find answers instantly.
             </p>
           </div>
 

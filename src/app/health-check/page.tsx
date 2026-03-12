@@ -368,13 +368,13 @@ export default function HealthCheck() {
         {!showResults && (
           <div className="text-center mb-10">
             <div className="text-xs font-bold text-[#2EC4B6] tracking-[0.14em] uppercase mb-2">
-              Diagnostic Tool
+              Self-Assessment
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-[#F0F4F8] mb-3">
               Finance Health Check
             </h1>
             <p className="text-base text-white/40 max-w-lg mx-auto">
-              10 questions. 2 minutes. Find out where your finance operations are strong — and where they're exposed.
+              10 questions. 2 minutes. Find out where your finance operations are strong — and where there might be room to improve.
             </p>
           </div>
         )}
