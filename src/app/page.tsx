@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 
-const UA_PIC = "/images/UA_pic.png";
+const UA_PIC = "/images/Pic_UA.jpg";
 const DELL_LOGO = "/images/dell-gray.png";
 const PUIG_LOGO = "/images/puig-gray.png";
 const DRESDNER_LOGO = "/images/dresdner-gray.png";
