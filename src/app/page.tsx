@@ -136,7 +136,7 @@ function Hero({ lang }: { lang: Lang }) {
           </div>
         </div>
         <div className="text-center">
-          <div className="w-[200px] h-[200px] rounded-full mx-auto mb-5 border-[3px] border-[#2EC4B6] shadow-[0_0_0_8px_rgba(46,196,182,0.12)]" style={{ background: `url(${UA_PIC}) center/cover` }} />
+          <div className="w-[200px] h-[200px] rounded-full mx-auto mb-5 border-[3px] border-[#2EC4B6] shadow-[0_0_0_8px_rgba(46,196,182,0.12)]" style={{ background: `url(${UA_PIC}) center 35%/cover` }} />
           <div className="text-[15px] text-white/40 leading-[1.9]">
             <span className="text-white/65 font-semibold">{t.hero.years[lang]}</span> · Dell, Puig, Dresdner Bank<br />
             <span className="text-white/65 font-semibold">{t.hero.tri[lang]}</span> · EN · ES · DE<br />
@@ -247,7 +247,7 @@ function About({ lang }: { lang: Lang }) {
       <div ref={f.ref} style={f.style} className="max-w-[780px] mx-auto text-center">
         <div className="text-base font-bold text-[#2EC4B6] tracking-[0.14em] uppercase mb-2.5">{t.about.heading[lang]}</div>
         <h2 className="text-3xl md:text-4xl font-bold text-[#F0F4F8] mb-7">{t.about.title[lang]}</h2>
-        <div className="w-[140px] h-[140px] rounded-full mx-auto mb-7 border-2 border-[#2EC4B6] shadow-[0_0_0_6px_rgba(46,196,182,0.12)]" style={{ background: `url(${UA_PIC}) center/cover` }} />
+        <div className="w-[140px] h-[140px] rounded-full mx-auto mb-7 border-2 border-[#2EC4B6] shadow-[0_0_0_6px_rgba(46,196,182,0.12)]" style={{ background: `url(${UA_PIC}) center 35%/cover` }} />
         <p className="text-[17px] text-white/65 leading-[1.75] mb-3">{t.about.p1[lang]}</p>
         <p className="text-[17px] text-white/65 leading-[1.75] mb-3">{t.about.p2[lang]}</p>
         <p className="text-[17px] text-white/65 leading-[1.75] mb-3">{t.about.p3[lang]}</p>
